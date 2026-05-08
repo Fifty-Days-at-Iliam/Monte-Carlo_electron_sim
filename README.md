@@ -58,7 +58,7 @@ Install with:
 pip install numpy matplotlib numba pandas seaborn
 ```
 
-> **Note:** `numba` is used to JIT-compile the core simulation loop and rotation function, giving a significant speedup for M × N = 10⁸ total iterations. It is a required dependency.
+> **Note:** `numba` is used to JIT-compile the core simulation loop and rotation function, giving a significant speedup for M × N = 10⁸ total iterations. It is a required dependency. Runtime is approximately 2 minutes on a standard laptop; the first run may be slightly slower due to JIT compilation overhead.
 
 ## Usage
 
